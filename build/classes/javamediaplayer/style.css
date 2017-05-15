@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 14, 2017, 10:54:27 PM
+    Author     : Paul
+*/
+
+.play
+{
+    -fx-background-color: none;
+    
+    -fx-background-radius:50%;
+    -fx-width:40px;
+    -fx-height:40px;
+     -fx-background-image: url('icons/play.png');
+    -fx-background-size: 45px;
+     -fx-background-radius: 100%;
+    -fx-background-repeat: no-repeat;
+}
+.pause
+{
+    -fx-background-color: none;
+    
+    -fx-background-radius:50%;
+    -fx-width:40px;
+    -fx-height:40px;
+     -fx-background-image: url('icons/pause.png');
+    -fx-background-size: 45px;
+     -fx-background-radius: 100%;
+    -fx-background-repeat: no-repeat;
+}
+.controlBox
+{
+    -fx-background-color: transparent;
+     visibility: visible;
+ 
+}
+.controlBox:hover
+{
+    visibility: visible;
+}
+.button:hover
+{
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}

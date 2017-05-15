@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane fx:id="wndScreen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="600.0" prefHeight="601.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javamediaplayer.FXMLDocumentController">
+   <children>
+      <StackPane fx:id="movieArea" prefHeight="332.0" prefWidth="600.0" />
+      <HBox alignment="CENTER" layoutY="532.0" prefHeight="62.0" prefWidth="455.0" styleClass="controlBox" AnchorPane.leftAnchor="150.0">
+         <children>
+            <Button fx:id="playBtn" alignment="CENTER" mnemonicParsing="false" onAction="#playMovie" prefHeight="50.0" prefWidth="50.0" styleClass="play">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="pause" alignment="CENTER" mnemonicParsing="false" onAction="#pauseMovie" prefHeight="50.0" prefWidth="50.0" styleClass="pause" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+   </children>
+</AnchorPane>
